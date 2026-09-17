@@ -1,0 +1,47 @@
+NEXORA — GUMROAD LISTING DETAILS
+==================================================
+REMINDER BEFORE PUBLISHING:
+Put your live demo link, screenshots, and (especially) a GIF of the AI Studio,
+the automation builder canvas, and the dashboard variant switcher at the VERY
+TOP of the Gumroad listing, above all text. Visuals of motion/interaction sell
+this kind of product far more than any copy below — buyers decide in the
+first few seconds, before they read a word.
+==================================================
+
+
+1) NAME
+--------------------------------------------------
+NEXORA — AI SaaS Dashboard Template (Next.js)
+
+
+2) SUMMARY
+--------------------------------------------------
+Launch a fully working AI product experience today — not a folder of static screens six weeks from now.
+
+
+3) DESCRIPTION
+--------------------------------------------------
+Most "AI dashboard" templates are a handful of pretty screens that fall apart the moment you click anything — buttons that go nowhere, charts with fake numbers baked into an image, a sidebar with three working links and twelve dead ones. NEXORA is different: it's a complete, clickable product. Every button does something. Every workspace holds state. Generate a response in AI Studio, save it as a prompt, drop it into a document, watch it show up in your usage analytics — the whole loop actually works, right out of the box, with nothing to configure. Live demo: [ADD YOUR DEMO LINK HERE].
+
+Under the hood, NEXORA ships the entire surface of an AI SaaS product. A public marketing site (homepage, feature showcases, testimonials, pricing with a monthly/yearly toggle, FAQ) sits in front of full auth screens (login, register, forgot/reset password) and a six-step onboarding flow. Past that is the real application: five distinct dashboard variants (Overview, Creator, Team, Automation, Analytics) sharing one design system and swappable from a single view; an AI Studio with eight capability modes, model/tone/length/language controls, attachments, and a response panel with copy, regenerate, export, save-to-document, and save-as-prompt actions; a chat workspace with full conversation management and simulated streaming responses (including realistic failure/retry states); a prompt library with categories, favorites, and variable substitution; a document workspace with folders, an AI actions menu, and version history; and a visual, node-based automation builder with execution history and starter templates.
+
+Everything else you'd expect from a real SaaS product is here too: usage analytics with trend charts and exportable history, billing with plan comparison and invoice management, team roles and invitations, an API keys interface with masked keys and one-time reveal, notifications, a searchable help center, and a full settings area — plus a keyboard-accessible command palette (Ctrl/⌘K) tying it all together. None of it needs a server: every dataset lives in one typed file per domain under `src/data/`, and user actions persist to `localStorage`, so you can explore the entire product immediately and swap in real endpoints later by replacing a small number of service functions — no backend spelunking required. Rebranding is a single-file job (`src/config/site.ts` for name/metadata, `src/config/navigation.ts` for nav), and adding a new dashboard variant or data record is a matter of extending a typed array, not fighting the architecture.
+
+Built on Next.js 16, React 19, and TypeScript in strict mode, styled with Tailwind CSS v4's CSS-first token system (edit one CSS variable to reroute the entire accent color, light/dark themes included), and powered by Radix UI primitives, Framer Motion, GSAP, React Hook Form + Zod, and Recharts. Quality details that matter: dark-and-light themes with a manual reduced-motion override and a compact-mode toggle, server components by default, full keyboard operability and ARIA wiring throughout, and a codebase clean enough to read in an afternoon. What you get: the complete source code, full documentation (installation, project structure, customization, theming, mock data, state management, deployment, troubleshooting), and a product that needs zero environment variables or setup to run — just `npm install` and `npm run dev`.
+
+
+4) ADDITIONAL DETAILS
+--------------------------------------------------
+- Requirements: Node.js 20+ and npm 10+.
+- License: standard use license per your Gumroad purchase — redistribution or resale of the source code itself is not permitted.
+- Not included: no backend, database, authentication provider, payment processor, or live AI provider — NEXORA is a frontend product running on typed mock data and localStorage, built to be wired up to your own services.
+
+
+5) BUTTON TEXT (15 characters)
+--------------------------------------------------
+Download NEXORA
+
+
+6) CUSTOM MESSAGE (472 characters)
+--------------------------------------------------
+Thank you so much for grabbing NEXORA! Knowing you're building something with it genuinely makes my day - I put a lot of care into making this feel like a real, living product instead of static screens. I hope it saves you weeks of work and becomes a solid foundation for whatever you're building next. If you ever get stuck, have a question, or just want to show off what you made with it, hit reply - I read every message myself and would love to see it. Happy building!
